@@ -1,0 +1,84 @@
+.joining-details-section {
+    background-color: #f5f5f5;
+    padding: 50px 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.joining-details-heading {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+}
+
+.joining-details-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.details-text {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.details-list {
+    margin-left: 20px;
+}
+
+.details-list li {
+    list-style-type: disc;
+    margin-bottom: 8px;
+}
+
+.enroll-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.enroll-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.enroll-link:hover {
+    background-color: #2980b9;
+}
+
+@media screen and (max-width: 768px) {
+    .joining-details-section {
+        padding: 40px 20px;
+    }
+
+    .joining-details-container {
+        padding: 15px;
+    }
+
+    .joining-details-heading {
+        font-size: 24px;
+    }
+
+    .details-text {
+        font-size: 14px;
+    }
+
+    .details-list li {
+        margin-left: 15px;
+        font-size: 14px;
+    }
+
+    .enroll-link {
+        font-size: 16px;
+    }
+}

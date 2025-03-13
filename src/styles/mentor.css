@@ -1,0 +1,99 @@
+.mentor-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.mentor-heading {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+}
+
+.mentor-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.mentor-card {
+    max-width: 300px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.mentor-name {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.mentor-position {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.mentor-description {
+    font-size: 16px;
+    color: #555;
+}
+
+.mentor-image {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.previous-work,
+.social-media {
+    margin-top: 15px;
+}
+
+.work-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.work-logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    object-fit: contain;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center; 
+    margin-top: 15px;
+}
+
+.social-media a {
+    display: inline-block;
+    margin-right: 15px; 
+    color: black;
+}
+
+.social-media :hover{
+    color: #ff0080;
+}
+
+@media screen and (max-width: 768px) {
+    .mentor-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mentor-card {
+        width: 80%;
+    }
+}

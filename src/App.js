@@ -1,23 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import DSAComponent from './pages/Dsa';
+import NavigationBar from './components/NavigationBar';
+import Curriculum from './pages/CourseCurriculum';
+import BatchOverview from './pages/BatchOverview';
+import Footer from './pages/Footer';
+import Faq from './pages/Faq';
+import Mentor from './pages/MentorDetails';
+import JoinDetails from './pages/JoinDetails';
+import Comparison from './pages/ComparisonSession';
 
-function App() {
+function App() {  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavigationBar />
+      <DSAComponent />
+      <Curriculum />
+      <BatchOverview />
+      <Comparison/>
+      <JoinDetails/>
+      <Mentor />
+      <Faq/>
+      <Footer />
     </div>
   );
 }
